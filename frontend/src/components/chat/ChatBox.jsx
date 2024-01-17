@@ -3,9 +3,9 @@ import { Box, Spinner, Input, useToast, Button } from "@chakra-ui/react";
 import { FormControl } from "@chakra-ui/react";
 import axios from "axios";
 import styles from "./ChatBox.module.css";
-import ScrollableChat from "./ScrollableChat";
+import ScrollableChat from "./ScrollableChat.jsx";
 import io from "socket.io-client";
-import { UserState } from "../../context/userProvider";
+import { UserState } from "../../context/UserProvider.jsx";
 
 const ENDPOINT = import.meta.env.VITE_BACKENDURL;
 let socket;
