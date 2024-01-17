@@ -5,7 +5,7 @@ import { Button } from "@chakra-ui/button";
 import { Input, InputGroup, InputRightElement } from "@chakra-ui/input";
 import axios from "axios";
 import {useNavigate} from 'react-router-dom'
-import { UserState } from "../../context/userProvider";
+import { UserState } from "../../context/UserProvider.jsx";
 
 const SignUp = () => {
   const [showPass, setShowPass] = useState(false);
