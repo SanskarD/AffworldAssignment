@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { UserState } from "../context/userProvider";
+import { UserState } from "../context/UserProvider.jsx";
 import { Box } from "@chakra-ui/react";
-import Header from "../components/misc/Header";
-import ChatBox from "../components/chat/ChatBox";
+import Header from "../components/misc/Header.jsx";
+import ChatBox from "../components/chat/ChatBox.jsx";
 
 const SecretsPage = () => {
   const navigate = useNavigate();
