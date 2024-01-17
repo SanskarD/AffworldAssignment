@@ -2,7 +2,7 @@ import React from "react";
 import ScrollableFeed from "react-scrollable-feed";
 import { Box } from "@chakra-ui/react";
 import styles from "./ScrollableChat.module.css";
-import { UserState } from "../../context/userProvider";
+import { UserState } from "../../context/UserProvider.jsx";
 
 const ScrollableChat = ({ messages }) => {
     const {user} = UserState()
