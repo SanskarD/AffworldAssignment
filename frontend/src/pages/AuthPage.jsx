@@ -10,7 +10,7 @@ import {
   TabPanel,
 } from "@chakra-ui/react";
 import Login from "../components/authentication/Login.jsx";
-import SignUp from "../components/authentication/SignUp.jsx";
+import SignUp from "../components/authentication/Signup.jsx";
 import { useNavigate } from "react-router-dom";
 
 const AuthPage = () => {
