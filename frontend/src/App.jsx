@@ -1,7 +1,7 @@
 import './App.css'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
-import AuthPage from './pages/AuthPage'
-import SecretsPage from './pages/SecretsPage'
+import AuthPage from './pages/AuthPage.jsx'
+import SecretsPage from './pages/SecretsPage.jsx'
 
 function App() {
 
